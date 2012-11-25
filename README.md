@@ -1,0 +1,1 @@
+This is a project of tetries game who uesed cocos2 engine.

@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'mztetris_cocos2d_x' target in the 'mztetris_cocos2d_x' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
