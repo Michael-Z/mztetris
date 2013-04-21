@@ -129,9 +129,9 @@
 		09CE2CD81661AF2500239E3E /* vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CD71661AF2500239E3E /* vec2.c */; };
 		09CE2CDA1661AF2500239E3E /* vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CD91661AF2500239E3E /* vec3.c */; };
 		09CE2CDC1661AF2500239E3E /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CDB1661AF2500239E3E /* vec4.c */; };
-		09CE2CE11661AF2500239E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE01661AF2500239E3E /* main.m */; };
+		09CE2CE11661AF2500239E3E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE01661AF2500239E3E /* main.mm */; };
 		09CE2CE41661AF2600239E3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE31661AF2600239E3E /* AppDelegate.m */; };
-		09CE2CE71661AF2600239E3E /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE61661AF2600239E3E /* HelloWorldLayer.m */; };
+		09CE2CE71661AF2600239E3E /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE61661AF2600239E3E /* HelloWorldLayer.mm */; };
 		09CE2CEA1661AF2600239E3E /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CE2CE91661AF2600239E3E /* IntroLayer.m */; };
 /* End PBXBuildFile section */
 
@@ -391,11 +391,11 @@
 		09CE2CDB1661AF2500239E3E /* vec4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = vec4.c; path = libs/kazmath/src/vec4.c; sourceTree = "<group>"; };
 		09CE2CDD1661AF2500239E3E /* LICENSE_Kazmath.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Kazmath.txt; path = libs/LICENSE_Kazmath.txt; sourceTree = "<group>"; };
 		09CE2CDF1661AF2500239E3E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		09CE2CE01661AF2500239E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09CE2CE01661AF2500239E3E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		09CE2CE21661AF2600239E3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09CE2CE31661AF2600239E3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09CE2CE51661AF2600239E3E /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		09CE2CE61661AF2600239E3E /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		09CE2CE61661AF2600239E3E /* HelloWorldLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		09CE2CE81661AF2600239E3E /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		09CE2CE91661AF2600239E3E /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -459,7 +459,7 @@
 				09CE2CE21661AF2600239E3E /* AppDelegate.h */,
 				09CE2CE31661AF2600239E3E /* AppDelegate.m */,
 				09CE2CE51661AF2600239E3E /* HelloWorldLayer.h */,
-				09CE2CE61661AF2600239E3E /* HelloWorldLayer.m */,
+				09CE2CE61661AF2600239E3E /* HelloWorldLayer.mm */,
 				09CE2CE81661AF2600239E3E /* IntroLayer.h */,
 				09CE2CE91661AF2600239E3E /* IntroLayer.m */,
 				09CE2B6B1661AF2300239E3E /* Resources */,
@@ -827,7 +827,7 @@
 			isa = PBXGroup;
 			children = (
 				09CE2CDF1661AF2500239E3E /* Prefix.pch */,
-				09CE2CE01661AF2500239E3E /* main.m */,
+				09CE2CE01661AF2500239E3E /* main.mm */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1005,9 +1005,9 @@
 				09CE2CD81661AF2500239E3E /* vec2.c in Sources */,
 				09CE2CDA1661AF2500239E3E /* vec3.c in Sources */,
 				09CE2CDC1661AF2500239E3E /* vec4.c in Sources */,
-				09CE2CE11661AF2500239E3E /* main.m in Sources */,
+				09CE2CE11661AF2500239E3E /* main.mm in Sources */,
 				09CE2CE41661AF2600239E3E /* AppDelegate.m in Sources */,
-				09CE2CE71661AF2600239E3E /* HelloWorldLayer.m in Sources */,
+				09CE2CE71661AF2600239E3E /* HelloWorldLayer.mm in Sources */,
 				09CE2CEA1661AF2600239E3E /* IntroLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

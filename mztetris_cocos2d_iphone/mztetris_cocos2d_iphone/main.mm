@@ -8,10 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
+
+void f(int a){
+    a++;
+    
+    printf("/ndddd %d ddd",a);
+}
+
+void f(int* a){
+    a++;
+    printf("/nsssss %d ss",a);
+}
+
 int main(int argc, char *argv[]) {
+    int a = 10;
+
+    f(a);
+    f(&a);
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     int retVal = UIApplicationMain(argc, argv, nil, @"AppController");
     [pool release];
     return retVal;
 }
+
